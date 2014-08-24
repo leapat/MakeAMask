@@ -7,14 +7,19 @@ gcc -ggdb `pkg-config --cflags opencv` -o `basename maskMaker.c .c` maskMaker.c 
 ------------------------------------------
 
 To run program:
-./maskMaker videoName.extension maskPic.extension
+./maskMaker videoName.avi maskPic.extension
 
 Then, enter the dimensions of your region of interest to crop the maskPic image. If no region of interest is desired,
 the whole maskPic image will be used.
-  To avoid a squashed image, use dimensions close to a square (width and height equal or almost equal).
+To avoid a squashed image, use dimensions close to a square (width and height equal or almost equal).
   
 -------------------------------------------
 Notes:
+
+Could not access webcam through tux, so user provided videos are used in the program instead. Webcam capture could be used
+in the future by changing cvCaptureFromAVI(input_name) to cvCaptureFromCAM(device_number)
+
+Ran into trouble with grabcut implementation. User customized cropping used as substitute. 
 
 Video playback is slower than original video speed.
 Through testing, it seems playback is affected by internet connection speed. Video playback was much faster on home network
