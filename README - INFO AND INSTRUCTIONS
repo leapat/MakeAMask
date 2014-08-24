@@ -11,9 +11,28 @@ To run program:
 
 Then, enter the dimensions of your region of interest to crop the maskPic image. If no region of interest is desired,
 the whole maskPic image will be used.
+Dimensions for cropping found using the selection tool in Microsoft Paint (dimensions of selections found on bottom
+left hand corner).
 To avoid a squashed image, use dimensions close to a square (width and height equal or almost equal).
+
+-------------------------------------------
+
+Region of Interest Dimensions For Starter Masks Used During Testing
+
+TIM.jpg: 150 x 150 or 131 x 173
+
+batman.jpg: 186 x 305
+
+finn.jpg: 161x151
+
+minion.jpg: 341 x 357
+
+le_happy_face.png: 573 x 573
+
+lego: 171x185
   
 -------------------------------------------
+
 Notes:
 
 Could not access webcam through tux, so user provided videos are used in the program instead. Webcam capture could be used
