@@ -1,4 +1,4 @@
 MakeAMask
 =========
 
-CS 283 Final Project. Draw images on face detected in a video.
+CS 283 Final Project. Place images on face detected in a video.
